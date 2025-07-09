@@ -1,41 +1,31 @@
-//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-//public class script : MonoBehaviour
-//{
-//    [SerializeField] private float speed;
-//    private Rigidbody2D body;
+public class script : MonoBehaviour
+{
+    float horizontalInput;
+    float moveSpeed = 10f;
 
-//    //private float speed = 8f;
-//    //private float jumpingPower = 16f;
+    Rigidbody2D rb;
+
     
 
-//    //[SerializeField] private Rigidbody2D rb;
-//    //[SerializeField] private Transform groundCheck;
-//    //[SerializeField] private LayerMask groundLayer;
-//    // Start is called before the first frame update
-//    void Start()
-//    {
-        
-//    }
 
-//    // Update is called once per frame
-//    void Update()
-//    {
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
-        
+    // Update is called once per frame
+    void Update()
+    {
+        horizontalInput = Input.GetAxis("Horizontal");
+    }
 
-//        if (Input.GetKey(KeyCode.D))
-//        {
-//            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
-//        }
+    private void FixedUpdate()
+    {
+        rb.velocity = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
+    }
 
-//        if (Input.GetKey)
-//    }
-
-//    private void FixedUpdate()
-//    {
-//        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-//    }
-//}
+}
