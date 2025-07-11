@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class script : MonoBehaviour
 {
+    [SerializeField] private AudioClip walkingSound;
+    [SerializeField] private AudioClip jumpingSound;
+    [SerializeField] AudioSource walkingSource;
 
-    
     [SerializeField] float horizontalInput;
     [SerializeField] float moveSpeed = 10f;
-
     [SerializeField] float jumpPower = 4f;
     bool inAir = false;
+    bool isWalking = false;
+    bool isWalkingnm1 = true;
 
 
     Rigidbody2D rb;
@@ -33,9 +36,41 @@ public class script : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space) && !inAir)
         {
+            SoundManager.instance.PlaySound(jumpingSound);
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
             inAir = true;
         }
+
+        walking();
+        Debug.Log(isWalking);
+        
+
+    }
+
+    private void walking()
+    {
+        isWalkingnm1 = isWalking;
+        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && !inAir)
+        {
+            isWalking = true;
+            
+        } else
+        {
+            isWalking = false;
+        }
+
+        if (!(isWalkingnm1 && isWalking)) 
+        {
+            walkingSource.Play();
+            //no walk -> walk / start walking
+            
+            
+            
+        }
+
+
+
+
 
     }
 
