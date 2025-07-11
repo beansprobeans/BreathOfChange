@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\azh3n\\OneDrive\\Desktop\\Unity Stuff\\BreathOfChange\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21EC3D93-5A9C-F483-87E4-08D3DF497593}|Assembly-CSharp.csproj|c:\\users\\azh3n\\onedrive\\desktop\\unity stuff\\breathofchange\\assets\\scripts\\script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21EC3D93-5A9C-F483-87E4-08D3DF497593}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21EC3D93-5A9C-F483-87E4-08D3DF497593}|Assembly-CSharp.csproj|c:\\users\\azh3n\\onedrive\\desktop\\unity stuff\\breathofchange\\assets\\scripts\\sound manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21EC3D93-5A9C-F483-87E4-08D3DF497593}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sound manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sound Manager.cs",
+              "DocumentMoniker": "C:\\Users\\azh3n\\OneDrive\\Desktop\\Unity Stuff\\BreathOfChange\\Assets\\scripts\\Sound Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Sound Manager.cs",
+              "ToolTip": "C:\\Users\\azh3n\\OneDrive\\Desktop\\Unity Stuff\\BreathOfChange\\Assets\\scripts\\Sound Manager.cs",
+              "RelativeToolTip": "Assets\\scripts\\Sound Manager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T23:10:10.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "script.cs",
+              "DocumentMoniker": "C:\\Users\\azh3n\\OneDrive\\Desktop\\Unity Stuff\\BreathOfChange\\Assets\\scripts\\script.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\script.cs",
+              "ToolTip": "C:\\Users\\azh3n\\OneDrive\\Desktop\\Unity Stuff\\BreathOfChange\\Assets\\scripts\\script.cs",
+              "RelativeToolTip": "Assets\\scripts\\script.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwEAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T23:08:08.506Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
