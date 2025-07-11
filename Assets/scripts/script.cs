@@ -18,14 +18,14 @@ public class script : MonoBehaviour
 
     Rigidbody2D rb;
 
-    
+
 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
-        
+
 
     }
 
@@ -43,7 +43,7 @@ public class script : MonoBehaviour
 
         walking();
         Debug.Log(isWalking);
-        
+
 
     }
 
@@ -53,19 +53,20 @@ public class script : MonoBehaviour
         if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && !inAir)
         {
             isWalking = true;
-            
-        } else
+
+        }
+        else
         {
             isWalking = false;
         }
 
-        if (!(isWalkingnm1 && isWalking)) 
+        if (!(isWalkingnm1 && isWalking))
         {
             walkingSource.Play();
             //no walk -> walk / start walking
-            
-            
-            
+
+
+
         }
 
 
